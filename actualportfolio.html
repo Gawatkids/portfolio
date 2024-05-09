@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head><title>Gawat</title>
+<style>
+</style>
+<script>
+window.onload = function() {
+  var context = new AudioContext();
+}
+</script>
+</head>
+<body>
+hi sirs
+<audio class="audio" controls autoplay unmuted loop>
+  <source src="minuetto.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+<script>
+   var vAudio = document.getElementById("divAudio");
+   var hasInit = false;
+   function playMusic()
+   {
+      if(!hasInit)
+      {
+          hasInit = true;
+          vAudio.play();
+      }
+   }
+</script>
+</audio> 
+</body>
+</html>
